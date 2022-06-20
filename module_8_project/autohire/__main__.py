@@ -16,7 +16,8 @@ if __name__ == "__main__":
     model = BayesianMulticlassModel(len(label_encoder), len(bag_of_words))
     model.fit(x_train=x_train, y_train=y_train)
 
-    x_test_input = parse_pdf("data/resumes/computers_2.pdf")
+    # x_test_input = parse_pdf("data/resumes/computers_2.pdf")
+    x_test_input = parse_pdf("data/resumes/jthota_resume.pdf")
     x_test = bag_of_words.get_counts(x_test_input)
     result = model.predict(x_train[0])
     result = label_encoder.decode(result)
