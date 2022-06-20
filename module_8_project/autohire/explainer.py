@@ -4,7 +4,6 @@ from .model import BayesianMulticlassModel
 from .bow import BagOfWords
 from .encoder import LabelEncoder
 
-
 class BayesianModelExplainer(BayesianMulticlassModel):
     """
     Explainer of the decision made by the base model

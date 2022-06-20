@@ -6,7 +6,6 @@ from autohire.encoder import LabelEncoder
 from autohire.model import BayesianMulticlassModel
 from autohire.explainer import BayesianModelExplainer
 
-
 if __name__ == "__main__":
     x_train, y_train = parse_resume_df()
     bag_of_words = BagOfWords(x_train)

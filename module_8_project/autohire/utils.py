@@ -7,7 +7,6 @@ from pdfreader import PDFDocument, SimplePDFViewer, document
 
 from .hyperparams import *
 
-
 def clean_text(text: str):
     """
     Given text it removes all the non-character words, small words,

@@ -1,6 +1,5 @@
 import numpy as np
 
-
 class LabelEncoder:
     """
     Label encode a series of labels

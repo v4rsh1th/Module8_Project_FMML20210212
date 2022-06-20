@@ -1,7 +1,6 @@
 import typing
 import numpy as np
 
-
 class BayesianMulticlassModel:
     """
     A multi-class bayesian classfier from encoded text tokens
