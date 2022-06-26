@@ -5,7 +5,7 @@ import numpy as np
 import pandas as pd
 from pdfreader import PDFDocument, SimplePDFViewer, document
 
-from .hyperparams import *
+from hyperparams import *
 
 def clean_text(text: str):
     """

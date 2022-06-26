@@ -1,8 +1,8 @@
 import numpy as np
 
-from .model import BayesianMulticlassModel
-from .bow import BagOfWords
-from .encoder import LabelEncoder
+from model import BayesianMulticlassModel
+from bow import BagOfWords
+from encoder import LabelEncoder
 
 class BayesianModelExplainer(BayesianMulticlassModel):
     """
